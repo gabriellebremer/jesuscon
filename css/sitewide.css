@@ -1,0 +1,111 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/*
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area.
+	If you have more than one container, you are probably doing
+	something wrong.
+*/
+.container {
+	padding: 1em;
+}
+
+
+
+/* ------------------------------------------------------------ */
+/* media query containing styles for larger screens */
+@media (min-width: 720px) {
+
+	/* container on larger screens */
+	.container {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+/* landing page content */
+
+img{
+	width: auto;
+	height: auto;
+	margin: -2em;
+}
+
+.homeheader{
+	font-size: 60px;
+	margin-top: -2em;
+	margin-left: 7em;
+	color: blue;
+}
+
+.homedates{
+	margin-left: 7em;
+}
+
+/* nav bar */
+.navbar{
+	width: auto;
+	height: auto;
+	background-color: gray;
+	float: right;
+	margin-right: -1em;
+	margin-top: -27em;
+	text-decoration: none;
+}
+
+.homenav{
+	padding: 2em;
+	text-decoration: none;
+}
+
+.aboutnav{
+	padding: 2em;
+	text-decoration: none;
+}
+
+.schedulenav{
+	text-decoration: none;
+
+}
+
+.speakersnav{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+} /* end media query */
