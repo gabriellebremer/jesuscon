@@ -56,26 +56,55 @@ body {
 	}
 
 /* landing page content */
-
-img{
-	width: auto;
-	height: auto;
-	margin: -2em;
-}
-
-.homeheader{
-	font-size: 60px;
-	margin-top: -2em;
-	margin-left: 7em;
-	color: blue;
-}
-
-.homedates{
-	margin-left: 7em;
-}
-
-/* nav bar */
 .navbar{
+	width: 25%;
+	height: 652px;
+	background-color: #FFC510;
+	float: right;
+	margin-right: 0;
+	margin-top: 0;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+li{
+	padding: 1em;
+}
+
+#bigPic
+{
+    width: 783px;
+    height: 600px;
+		float: left;
+		width: 75%;
+    background-image: url("img/homepage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#bigPic img{
+	width: 75%;
+	height: 100%;
+	position: absolute;
+}
+
+.jesuscon{
+	margin-right: 150px;
+	font-size: 50px;
+	font-family: 'Kalam', cursive;
+	color: #FFC510;
+	line-height: 0.8em;
+	background-color: rgba(0, 156, 196, 0.75);
+	padding: 1.5em;
+	position: relative;
+	float: right;
+	margin-top: -3em;
+	line-height: 1em;
+}
+
+/* homenavbar */
+.homenavbar{
 	width: auto;
 	height: auto;
 	background-color: gray;
@@ -86,26 +115,530 @@ img{
 }
 
 .homenav{
-	padding: 2em;
 	text-decoration: none;
+	color: black;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
 }
 
 .aboutnav{
-	padding: 2em;
 	text-decoration: none;
+	color: black;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
 }
 
 .schedulenav{
 	text-decoration: none;
-
+	color: black;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
 }
 
 .speakersnav{
 	text-decoration: none;
+	color: black;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
 }
 
 li{
 	list-style: none;
 }
 
+a:hover{
+	color: #DC644A;
+}
+/* end homenavbar */
+/* start insitenavbar */
+.insitenavbar a{
+	text-align: center;
+	float: left;
+	display: block;
+	padding: none;
+	padding: 2em;
+	font-size: 22px;
+}
+
+.insitenavbar li{
+	display: inline;
+}
+
+.insitehomenav{
+	text-decoration: none;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
+}
+
+.insiteaboutnav{
+	text-decoration: none;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
+}
+
+.insiteschedulenav{
+	text-decoration: none;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
+}
+
+.insitespeakersnav{
+	text-decoration: none;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
+}
+
+a:hover{
+	color: #DC644A;
+}
+/* end insitenav */
+/* start about page */
+
+.aboutheader img{
+	width: 100%;
+	height: 350px;
+}
+
+.aboutmiddle img{
+	width: 100%;
+	height: 350px;
+}
+
+.aboutend img{
+	width: 100%;
+	height: 350px;
+}
+
+.about{
+	font-family: 'Kalam', cursive;
+	color: #9ABE72;
+	margin-left: 2em;
+	margin-top: 5em;
+}
+
+.aboutfirstparagraph{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+	margin-left: 3.5em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.aboutmiddleparagraph{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+	margin-left: 3.5em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.aboutlastparagraph{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+	margin-left: 3.5em;
+	margin-right: 2em;
+	margin-bottom: 3em;
+	margin-top: 2em;
+}
+
+.registration{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+		margin-left: 3.5em;
+		margin-bottom: 2em;
+}
+
+/* end about page */
+/* start schedule page */
+.schedule{
+	margin-top: 5em;
+	margin-left: 2em;
+	font-family: 'Kalam', cursive;
+	color: #9ABE72;
+}
+
+.scheduleheader img{
+	width: 100%;
+	height: 350px;
+}
+
+.schedulemiddle img{
+	width: 100%;
+	height: 350px;
+}
+
+.scheduleend img{
+	width: 100%;
+	height: 350px;
+}
+
+.days{
+		font-family: 'Kalam', cursive;
+		color: #DC644A;
+		margin-left: 3.5em;
+}
+
+.scheduleevents p{
+	font-family: 'Kalam', cursive;
+	margin-left: 3.5em;
+	margin-top: 2em;
+}
+
+.scheduleevents9 p{
+	font-family: 'Kalam', cursive;
+	margin-left: 3.5em;
+	margin-top: 2em;
+}
+
+.scheduleevents10 p{
+	font-family: 'Kalam', cursive;
+	margin-left: 3.5em;
+	margin-top: 2em;
+}
+/* end schedule page */
+/* start speakers page */
+.speakers{
+	margin-top: 5em;
+	margin-left: 2em;
+	font-family: 'Kalam', cursive;
+	font-size: 35px;
+	color: #9ABE72;
+}
+
+.speakerheader img{
+	width: 100%;
+	height: 350px;
+}
+
+.speakermiddle img{
+	width: 100%;
+	height: 350px;
+}
+
+.speakerend img{
+	width: 100%;
+	height: 350px;
+}
+
+.lauracomic{
+	max-width: 30%;
+	height: auto;
+	float: left;
+	padding: 1em;
+		font-family: 'Kalam', cursive;
+}
+
+.lauracomic img{
+	margin-bottom: 0em;
+	margin-left: -.35em;
+}
+
+.nadinecomic{
+	max-width: 30%;
+	height: auto;
+	float: left;
+	padding: 1em;
+	font-family: 'Kalam', cursive;
+}
+
+.nadinecomic p{
+	margin-top: 3em;
+}
+
+.manoushcomic{
+	max-width: 30%;
+	height: auto;
+	float: left;
+	padding: 1em;
+	font-family: 'Kalam', cursive;
+}
+
+.manoushcomic img{
+	margin-bottom: 0em;
+	margin-left: -.35em;
+}
+
+.manoushcomic p{
+	margin-top: 3em;
+	margin-left: -1.5em;
+}
+
+.rebeccacomic{
+	max-width: 30%;
+	height: auto;
+	float: left;
+	font-family: 'Kalam', cursive;
+	padding: 1em;
+}
+
+.rebeccacomic p{
+	margin-top: 3em;
+	margin-left: -1.5em;
+}
+
+.valcomic{
+	max-width: 30%;
+	height: auto;
+	float: left;
+	padding: 1em;
+	font-family: 'Kalam', cursive;
+}
+
+.valcomic p{
+	margin-top: 3em;
+	margin-left: 0em;
+}
+
+.zeynepcomic{
+	max-width: 30%;
+	height: auto;
+	float: left;
+	padding: 1em;
+	font-family: 'Kalam', cursive;
+}
+
+.zeynepcomic img{
+	/* margin-bottom: .35em; */
+	/* margin-top: 23em; */
+}
+
+.zoecomic{
+	max-width: 30%;
+	height: auto;
+	float: left;
+	padding: 1em;
+	margin-left: 2em;
+	margin-top: 4em;
+	font-family: 'Kalam', cursive;
+}
+
+.zoecomic p{
+	margin-top: 3em;
+}
 } /* end media query */
+
+
+
+@media (max-width: 719px){
+
+/* start landing page content */
+#menu{
+	margin-top: 5em;
+}
+
+.jesuscon{
+	float: right;
+	font-size: 30px;
+	font-family: 'Kalam', cursive;
+	color: #FFC510;
+	line-height: 0.8em;
+	background-color: rgba(0, 156, 196, 0.75);
+	padding: 1em;
+	margin-top: -8em;
+	text-align: center;
+	margin-right: 1em;
+}
+
+.dates{
+	float: right;
+	font-size: 20px;
+	font-family: 'Kalam', cursive;
+	color: #FFC510;
+	margin-top: -9em;
+	margin-right: 2em;
+}
+
+#bigPic img{
+	height: 400px;
+	width: 657px;
+}
+/* end landing page content */
+/* homenavbar */
+.navbar{
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 20em;
+	text-align: center;
+}
+.homenav{
+	text-decoration: none;
+	color: black;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
+	font-size: 20px;
+}
+
+.aboutnav{
+	text-decoration: none;
+	color: black;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
+	font-size: 20px;
+}
+
+.schedulenav{
+	text-decoration: none;
+	color: black;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
+	font-size: 20px;
+}
+
+.speakersnav{
+	text-decoration: none;
+	color: black;
+	font-family: 'Kalam', cursive;
+	color: #009CC4;
+	font-size: 20px;
+}
+
+li{
+	list-style: none;
+	padding: .15em;
+}
+
+a:hover{
+	color: #DC644A;
+}
+/* end homenavbar */
+/* start insite nav bar */
+	.insitenavbar li{
+	list-style-type: none;
+	font-size: 20px;
+}
+	.insitehomenav{
+		text-decoration: none;
+		font-family: 'Kalam', cursive;
+		color: #009CC4;
+		margin-top: 2em;
+	}
+
+	.insiteaboutnav{
+		text-decoration: none;
+		font-family: 'Kalam', cursive;
+		color: #009CC4;
+	}
+
+	.insiteschedulenav{
+		text-decoration: none;
+		font-family: 'Kalam', cursive;
+		color: #009CC4;
+	}
+
+	.insitespeakersnav{
+		text-decoration: none;
+		font-family: 'Kalam', cursive;
+		color: #009CC4;
+	}
+
+	a:hover{
+		color: #DC644A;
+	}
+/* end in site nav bar */
+/* start about page */
+.about{
+	font-family: 'Kalam', cursive;
+	color: #9ABE72;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+.aboutfirstparagraph{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+	margin-left: 3.5em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.aboutmiddleparagraph{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+	margin-left: 3.5em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.aboutlastparagraph{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+	margin-left: 3.5em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.registration{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+	margin-left: 3.5em;
+}
+/* end about page*/
+/* start schedule page */
+.scheduleheader{
+	margin-bottom: -4em;
+}
+
+.schedule{
+	font-family: 'Kalam', cursive;
+	color: #9ABE72;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+.days{
+		font-family: 'Kalam', cursive;
+		color: #DC644A;
+		margin-left: 2em;
+}
+
+.scheduleevents p{
+	font-family: 'Kalam', cursive;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+.scheduleevents9 p{
+	font-family: 'Kalam', cursive;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+.scheduleevents10 p{
+	font-family: 'Kalam', cursive;
+	margin-left: 3.5em;
+	margin-top: 2em;
+}
+
+/*end schedule page*/
+/* start speakers page */
+
+.speakers{
+	font-family: 'Kalam', cursive;
+	color: #9ABE72;
+	margin-top: 2em;
+	margin-left: 1em;
+}
+
+.speakerheader{
+	margin-bottom: -4em;
+}
+
+#keepTogether{
+	font-family: 'Kalam', cursive;
+}
+
+#keepTogether2{
+	font-family: 'Kalam', cursive;
+}
+
+.zoecomic{
+			font-family: 'Kalam', cursive;
+}
+
+/* end speakers page*/
+} /* end media query*/
